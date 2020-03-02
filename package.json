@@ -1,0 +1,58 @@
+{
+  "name": "workspace-front",
+  "version": "1.0.0",
+  "description": "Challenge Leveros front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp templateInit && gulp clean-templateInit ",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "browserslist": [
+    "last 2 versions",
+    ">1%"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigotonifreitas/workspace-front.git"
+  },
+  "author": "Rodrigo Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigotonifreitas/workspace-front/issues"
+  },
+  "homepage": "https://github.com/rodrigotonifreitas/workspace-front#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "autoprefixer": "^9.6.1",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.5.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.4",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^4.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.2.0",
+    "node-sass": "^4.12.0",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-scss": "^2.0.0",
+    "precss": "^4.0.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "vinyl-transform": "^1.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,14 @@
+.footer{
+    background: $darkGray-color;
+
+    .containerCenter{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__ass{
+        color: $white-color;
+    }
+}
