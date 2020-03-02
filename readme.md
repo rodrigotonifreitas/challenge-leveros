@@ -10,7 +10,7 @@ Para rodar o projeto é necessário que clone o mesmo e via terminal instale as 
 Caso tenha algum problema em instalar, fiz o deploy no heroku e é possivel acessa-lo pelo link - https://leveros-challange.herokuapp.com/
 
 ## Sobre o projeto
-Este é um site que consome a API https://rickandmortyapi.com, desenvolvi com atenção a semântica html, arquitetura de diretórios css (SMACSS) e com a possibilidade de carregar os cards sob demanda clicando no botão "Ver mais personagens", quando não há mais resultados é apresentada a mensagem "Não há mais personagens =(" 
+Este é um site que consome a API https://rickandmortyapi.com, desenvolvi com atenção a semântica html, arquitetura de diretórios css (SMACSS), mobile first e com a possibilidade de carregar os cards sob demanda clicando no botão "Ver mais personagens", quando não há mais resultados é apresentada a mensagem "Não há mais personagens =(" 
 
 Caso tenham alguma dúvida ou sugestão a respeito do projeto, por favor, nos reporte através de issues =D
 Obrigado!
